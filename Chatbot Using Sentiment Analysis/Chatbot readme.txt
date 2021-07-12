@@ -1,0 +1,1 @@
+enter all the user details and flight information as prompted by the chatbot, then you may ask a question about any of the three intents (damaged luggage, lost luggage, delayed flight -  missed connection flight) as given in the report

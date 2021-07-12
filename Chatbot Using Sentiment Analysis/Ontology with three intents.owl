@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tullu/ontologies/2021/2/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tullu/ontologies/2021/2/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/tullu/ontologies/2021/2/untitled-ontology-4"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Bad_Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book_new_flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Current_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Damaged_Luggage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delayed_Flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight_Details"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lost_Luggage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luggage_Details"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missed_Connection_Flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refund_amount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Details"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Arrival_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Departure_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Email_Address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Flight_Destination"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Flight_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Flight_Source"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Luggage_Color"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Luggage_Height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Luggage_Tag_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Luggage_Width"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Monetory_Worth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Phone_Number"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bad_Experience"/>
+        <Class IRI="#Flight_Details"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Book_new_flight"/>
+        <Class IRI="#Missed_Connection_Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Current_Status"/>
+        <Class IRI="#Delayed_Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Damaged_Luggage"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delayed_Flight"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flight_Details"/>
+        <Class IRI="#User_Details"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lost_Luggage"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luggage_Details"/>
+        <Class IRI="#Damaged_Luggage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luggage_Details"/>
+        <Class IRI="#Lost_Luggage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missed_Connection_Flight"/>
+        <Class IRI="#Current_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refund_amount"/>
+        <Class IRI="#Luggage_Details"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Arrival_Time"/>
+        <Class IRI="#Flight_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Departure_time"/>
+        <Class IRI="#Flight_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Email_Address"/>
+        <Class IRI="#User_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Flight_Destination"/>
+        <Class IRI="#Flight_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Flight_Number"/>
+        <Class IRI="#Flight_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Flight_Source"/>
+        <Class IRI="#Flight_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Luggage_Color"/>
+        <Class IRI="#Luggage_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Luggage_Height"/>
+        <Class IRI="#Luggage_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Luggage_Tag_Number"/>
+        <Class IRI="#Luggage_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Luggage_Width"/>
+        <Class IRI="#Luggage_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Monetory_Worth"/>
+        <Class IRI="#Damaged_Luggage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Monetory_Worth"/>
+        <Class IRI="#Lost_Luggage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#User_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Phone_Number"/>
+        <Class IRI="#User_Details"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Arrival_Time"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Departure_time"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Email_Address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Flight_Destination"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Flight_Number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Flight_Source"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Luggage_Color"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Luggage_Height"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Luggage_Tag_Number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Luggage_Width"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Monetory_Worth"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Phone_Number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

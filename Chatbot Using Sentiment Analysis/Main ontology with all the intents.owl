@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tullu/ontologies/2021/2/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tullu/ontologies/2021/2/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/tullu/ontologies/2021/2/untitled-ontology-4"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Add_on"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport_lounge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amount_Refund"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bad_Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bad_Flight_Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bad_Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book_On_Behalf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book_a_new_Flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book_new_flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book_on_Behalf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book_on_behalf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Booking_Error"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broken_Armrest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broken_Seat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broken_Tray_table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cancelled_Flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Check_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comfort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confirmation_Issue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Current_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customer_Service_Issue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Damaged_Luggage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delayed_Flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delayed_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expensive_Wifi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extra_Luggage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight_Attendant_Issues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight_Booking_Issue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight_Details"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inexperienced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leg_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Long_Lines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lost_Luggage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luggage_Details"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missed_Connection_Flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Cooperative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Payment_Failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priority_boarding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refund"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refund_Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refund_amount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reschedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seating_arrangement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Upgrade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Details"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Add_on"/>
+        <Class IRI="#Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport_lounge"/>
+        <Class IRI="#Add_on"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amount_Refund"/>
+        <Class IRI="#Flight_Booking_Issue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attitude"/>
+        <Class IRI="#Flight_Attendant_Issues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bad_Experience"/>
+        <Class IRI="#Flight_Details"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bad_Flight_Experience"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bad_Food"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Book_On_Behalf"/>
+        <Class IRI="#Booking_Error"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Book_a_new_Flight"/>
+        <Class IRI="#Cancelled_Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Book_new_flight"/>
+        <Class IRI="#Missed_Connection_Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Book_on_Behalf"/>
+        <Class IRI="#Reschedule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Book_on_behalf"/>
+        <Class IRI="#Payment_Failure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Booking_Error"/>
+        <Class IRI="#Flight_Booking_Issue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broken_Armrest"/>
+        <Class IRI="#Broken_Seat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broken_Seat"/>
+        <Class IRI="#Comfort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broken_Tray_table"/>
+        <Class IRI="#Comfort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancelled_Flight"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Check_Status"/>
+        <Class IRI="#Confirmation_Issue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Class"/>
+        <Class IRI="#Upgrade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comfort"/>
+        <Class IRI="#Bad_Flight_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirmation_Issue"/>
+        <Class IRI="#Flight_Booking_Issue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Current_Status"/>
+        <Class IRI="#Delayed_Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customer_Service_Issue"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Damaged_Luggage"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delayed_Flight"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delayed_Service"/>
+        <Class IRI="#Flight_Attendant_Issues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expensive_Wifi"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extra_Luggage"/>
+        <Class IRI="#Add_on"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flight_Attendant_Issues"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flight_Booking_Issue"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flight_Details"/>
+        <Class IRI="#User_Details"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#Add_on"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inexperienced"/>
+        <Class IRI="#Flight_Attendant_Issues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leg_room"/>
+        <Class IRI="#Comfort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Long_Lines"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lost_Luggage"/>
+        <Class IRI="#Bad_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luggage_Details"/>
+        <Class IRI="#Damaged_Luggage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luggage_Details"/>
+        <Class IRI="#Lost_Luggage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missed_Connection_Flight"/>
+        <Class IRI="#Current_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modification"/>
+        <Class IRI="#Flight_Booking_Issue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Cooperative"/>
+        <Class IRI="#Flight_Attendant_Issues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Payment_Failure"/>
+        <Class IRI="#Flight_Booking_Issue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priority_boarding"/>
+        <Class IRI="#Add_on"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refund"/>
+        <Class IRI="#Cancelled_Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refund_Processing"/>
+        <Class IRI="#Amount_Refund"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refund_amount"/>
+        <Class IRI="#Luggage_Details"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refused"/>
+        <Class IRI="#Flight_Attendant_Issues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reschedule"/>
+        <Class IRI="#Flight_Booking_Issue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seating_arrangement"/>
+        <Class IRI="#Upgrade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <Class IRI="#Bad_Flight_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Upgrade"/>
+        <Class IRI="#Modification"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
